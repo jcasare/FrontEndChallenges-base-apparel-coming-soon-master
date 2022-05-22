@@ -93,7 +93,9 @@ padding: 0 25px;
 .text-component{
   padding:12% 0 13% 13%;
 }
-
+.img-component{
+  height: 100%;
+}
 }
 @media only screen and (max-width:767.9px) {
 
@@ -101,7 +103,7 @@ padding: 0 25px;
     background:none;
   }
 .container-fluid{
-  width:500px;
+  width:100vw;
   text-align: center;
   background:linear-gradient(12deg, hsl(0, 100%, 96%),  hsl(0, 0%, 100%));
 }
@@ -120,7 +122,7 @@ padding: 0 25px;
 }
 @media only screen and (max-width:766px) {
 .container-fluid{
-  width:450px;
+
   text-align:center;
   background:linear-gradient(12deg, hsl(0, 100%, 96%),  hsl(0, 0%, 100%));
 }
@@ -137,8 +139,8 @@ padding: 0 25px;
 
 @media only screen and (max-width:500px) {
   .container-fluid{
-    width: 400px;
     text-align: center;
+    height:100%;
   }
   .col{
     padding: 0;
@@ -151,9 +153,9 @@ padding: 0 25px;
   }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:390px) {
   .container-fluid{
-    width:340px;
+
     text-align: center;
     background:linear-gradient(12deg, hsl(0, 100%, 96%),  hsl(0, 0%, 100%));
     font-size: 13px;
