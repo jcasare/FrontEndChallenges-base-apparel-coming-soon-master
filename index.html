@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap stylesheet -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Stylesheet  -->
+  <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+  <main>
+
+    <div class="container-fluid">
+      <div class="mobile-logo ">
+        <nav class="navbar bg-transparent d-xxl-none d-xl-none d-lg-none d-md-none ">
+        <a class="navbar-brand"href="#">
+          <img src="./images/logo.svg" alt="brand-logo">
+        </a>
+        </nav>
+      </div>
+      <div class="row flex-column-reverse flex-lg-row flex-md-row">
+
+        <div class="  col col-lg-6 col-md-6 col-sm-12 col-12">
+          <nav class="navbar bg-transparent  d-md-block d-none mt-4 p-3">
+          <a class="navbar-brand"href="#">
+            <img src="./images/logo.svg" alt="brand-logo">
+          </a>
+          </nav>
+          <div class="text-component">
+            <h1><span>WE'RE</span> <br>COMING <br>SOON</h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+            <form class="user-form" id="form" method="post" >
+         <input type="email" class="form-control email-input shadow-none"  placeholder="Email Address">
+         <i class="error-icon mt-2 h-2"><img class="error-img d-none me-2 " src="./images/icon-error.svg" alt=""> </i>
+           <button class="submit-btn" type="submit" name="button">
+          <img src="./images/icon-arrow.svg" alt="arrow-icon">
+        </button>
+      </form>
+      <p class="success-msg d-none ms-3 mt-2">Thank you!</p>
+      <p class="error-notif d-none ms-2 mt-2 d">Please provide a valid email</p>
+      <p class="attribution desktop-view d-none d-sm-none d-md-block mt-4 text-center">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Jerry C. Asare</a>.
+      </p>
+          </div>
+          <p class="attribution mobile-view d-block d-sm-block d-md-none">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Jerry C. Asare</a>.
+          </p>
+
+        </div>
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="img-component">
+            <img class="desktop-img d-sm-none d-none d-md-block" src="./images/hero-desktop.jpg" alt="desktop-image">
+            <img class="mobile-img d-block d-sm-block d-md-none "src="./images/hero-mobile.jpg" alt="desktop-image">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</main>
+
+  <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
